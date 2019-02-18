@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuiteDemo">
+	<test name="Test1">
+
+		<groups>
+
+			<run>
+				<include name="SanityTest" />
+				<include name="RegressionTest" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Group001.Adayroi.com.ValidUserPass" />
+			<class name="Group001.Adayroi.com.ValidUserInvalidPass" />
+			<class name="RegressionTest.TC_RegressionTest1" />
+
+		</classes>
+	</test>
+</suite>

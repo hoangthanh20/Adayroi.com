@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-17T16:51:58Z" name="TestSuiteDemo" finished-at="2019-02-17T16:53:12Z" duration-ms="74209">
+    <groups>
+      <group name="SanityTest">
+        <method signature="ValidUserInvalidPass.test1()[pri:0, instance:Group001.Adayroi.com.ValidUserInvalidPass@186f8716]" name="test1" class="Group001.Adayroi.com.ValidUserInvalidPass"/>
+        <method signature="ValidUserPass.test1()[pri:0, instance:Group001.Adayroi.com.ValidUserPass@5ab9e72c]" name="test1" class="Group001.Adayroi.com.ValidUserPass"/>
+      </group> <!-- SanityTest -->
+      <group name="RegressionTest">
+        <method signature="TC_RegressionTest1.test1()[pri:0, instance:RegressionTest.TC_RegressionTest1@1d8bd0de]" name="test1" class="RegressionTest.TC_RegressionTest1"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test started-at="2019-02-17T16:51:58Z" name="Test1" finished-at="2019-02-17T16:53:12Z" duration-ms="74209">
+      <class name="Group001.Adayroi.com.ValidUserInvalidPass">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Group001.Adayroi.com.ValidUserInvalidPass@186f8716]" started-at="2019-02-17T16:52:24Z" name="beforeMethod" finished-at="2019-02-17T16:52:37Z" duration-ms="13258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:Group001.Adayroi.com.ValidUserInvalidPass@186f8716]" started-at="2019-02-17T16:52:37Z" name="test1" finished-at="2019-02-17T16:52:47Z" duration-ms="9809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Group001.Adayroi.com.ValidUserInvalidPass@186f8716]" started-at="2019-02-17T16:52:47Z" name="afterMethod" finished-at="2019-02-17T16:52:49Z" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Group001.Adayroi.com.ValidUserInvalidPass -->
+      <class name="Group001.Adayroi.com.ValidUserPass">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:Group001.Adayroi.com.ValidUserPass@5ab9e72c]" started-at="2019-02-17T16:51:58Z" name="beforeMethod" finished-at="2019-02-17T16:52:12Z" duration-ms="14205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:Group001.Adayroi.com.ValidUserPass@5ab9e72c]" started-at="2019-02-17T16:52:12Z" name="test1" finished-at="2019-02-17T16:52:23Z" duration-ms="11426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Group001.Adayroi.com.ValidUserPass@5ab9e72c]" started-at="2019-02-17T16:52:23Z" name="afterMethod" finished-at="2019-02-17T16:52:24Z" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Group001.Adayroi.com.ValidUserPass -->
+      <class name="RegressionTest.TC_RegressionTest1">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:RegressionTest.TC_RegressionTest1@1d8bd0de]" started-at="2019-02-17T16:52:49Z" name="beforeMethod" finished-at="2019-02-17T16:53:02Z" duration-ms="12597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:RegressionTest.TC_RegressionTest1@1d8bd0de]" started-at="2019-02-17T16:53:02Z" name="test1" finished-at="2019-02-17T16:53:12Z" duration-ms="9811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:RegressionTest.TC_RegressionTest1@1d8bd0de]" started-at="2019-02-17T16:53:12Z" name="afterMethod" finished-at="2019-02-17T16:53:12Z" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- RegressionTest.TC_RegressionTest1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- TestSuiteDemo -->
+</testng-results>
